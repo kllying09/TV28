@@ -35,7 +35,7 @@ jobs:
         run: |
           node jd_cfd.js
         env:
-          JD_COOKIE: ${{ secrets.JD_COOKIE }}
+          
           JD_USER_AGENT: ${{ secrets.JD_USER_AGENT }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
